@@ -1,0 +1,46 @@
+div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .divImagen img {
+    height: 50px;
+    width: auto;
+  }
+  
+  .divBotones button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .divBotones button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    div {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .divBotones {
+      margin-top: 10px;
+    }
+  
+    .divBotones button {
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+}
+  
